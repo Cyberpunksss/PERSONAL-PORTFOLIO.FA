@@ -37,10 +37,41 @@
             line-height: 1.6;
         }
 
+        .achievements {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .achievement-card {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: calc(33% - 40px);
+            text-align: center;
+        }
+
+        .achievement-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .achievement-card p {
+            font-size: 14px;
+            margin-top: 0;
+        }
+
         .back-link {
             display: block;
             text-align: center;
             margin-top: 20px;
+            color: #4CAF50;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -59,6 +90,17 @@
             <p>However, as I transitioned into the 9th grade, I found myself struggling once again. The initial fervor had faded, and I found it challenging to maintain the same level of dedication. My grades began to slip, and I found myself settling for average marks.</p>
 
             <p>Despite this setback, I refuse to give up. I am determined to reignite the passion for learning that once burned brightly within me and strive for excellence in all my endeavors.</p>
+        </div>
+
+        <div class="achievements">
+            <div class="achievement-card">
+                <img src="prize-position.jpg" alt="Prize 1">
+                <p>First Prize in Science Fair</p>
+            </div>
+            <div class="achievement-card">
+                <img src="result.jpeg" alt="Prize 2">
+                <p>Topper in Mathematics</p>
+            </div>
         </div>
         
         <a href="index.html" class="back-link">Back to Home</a>
